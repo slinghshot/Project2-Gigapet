@@ -36,6 +36,7 @@
   }
   
   footer {
+    clear:both;
     padding-top: 25px;
     border-top: 1px solid black;
   }
