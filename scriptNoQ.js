@@ -62,7 +62,7 @@ function clickedHealButton(healAmount) {
     pet_info.health = MAXHEALTH;
   }
   if(pet_info.health===100){
-    pet_info.weight+=25;
+    pet_info.weight=35;
     pet_info.happiness=10;
   }
   updateMessage(pet_info.healLines);
